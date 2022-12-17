@@ -1,0 +1,97 @@
+.containerBody {
+  display: flex;
+  height: calc(100vh - 50px);
+  background-image: url(../assets/nubank-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: flex-end;
+}
+
+.content {
+  display: flex;
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxInput {
+  position: absolute;
+  width: 300px;
+  background-color: white;
+  border-radius: 30px;
+  transition: transform 1s;
+
+}
+
+.boxInput:hover {
+  transform: scale(1.1);
+}
+
+h2 {
+  margin: 50px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+  width: 200px;
+  display: block;
+  margin: 20px auto;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  padding:  8px 0;
+  outline: none;
+}
+
+button {
+
+    display: block;
+    margin: 20px auto;
+    border: 0;
+    padding:  8px 0;
+    outline: none;
+    width: 200px; 
+    border-radius: 20px;
+    transition: background-color 0.7s;
+}
+
+button:hover {
+  background-color: rgb(231, 206, 255);
+}
+
+img{
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  img {
+    display: flex;
+    width: 50px;
+    height: 35px;
+    margin: 10px auto;
+  }
+
+  .containerBody{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/backgroundNubankMobile.jpeg) ;
+  }
+
+
+  .boxInput {
+    position: absolute;
+    background-color: white;
+    border-radius: 30px;
+    transition: transform 1s;
+
+  
+  }
+
+}
