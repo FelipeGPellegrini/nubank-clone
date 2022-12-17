@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nubank-clone/static/css/main.23206d71.css",
+    "main.js": "/nubank-clone/static/js/main.98d85f68.js",
+    "static/media/Nubank_logo_2021.png": "/nubank-clone/static/media/Nubank_logo_2021.38a9dd66985e8c5f9337.png",
+    "static/media/backgroundNubankMobile.jpeg": "/nubank-clone/static/media/backgroundNubankMobile.9241c2589f6e5e222d8f.jpeg",
+    "static/media/nubank-wallpaper.jpg": "/nubank-clone/static/media/nubank-wallpaper.dd67a0ae17c0d233e8e4.jpg",
+    "index.html": "/nubank-clone/index.html",
+    "main.23206d71.css.map": "/nubank-clone/static/css/main.23206d71.css.map",
+    "main.98d85f68.js.map": "/nubank-clone/static/js/main.98d85f68.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23206d71.css",
+    "static/js/main.98d85f68.js"
+  ]
+}
