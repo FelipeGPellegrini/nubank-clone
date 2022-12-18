@@ -7,7 +7,7 @@ export default function Body() {
     <div className="containerBody">
       <div className="content">
         <div className="boxInput">
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="Logo" />
           <h2>Ainda não é cliente Nubank? Cadastre-se:</h2>
           <form>
             <input
